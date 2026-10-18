@@ -294,6 +294,7 @@ body {
   margin-bottom: 4px;
 }
 
+/* Email */
 .contact-email {
   color: var(--primary);
   font-weight: 600;

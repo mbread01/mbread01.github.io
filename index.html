@@ -3,14 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to mbread website.">
-  <title>Welcome</title>
+  <meta name="description" content="Welcome to Mbread Studio. Explore our apps and games.">
+  <meta name="theme-color" content="#B45309">
+
+  <title>Mbread Studio</title>
+  <link rel="icon" type="image/png" href="word-ladder/assets/icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <h1>Welcome</h1>
-    <p>Thanks for visiting.</p>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="#" class="logo-brand">
+        <span class="brand-name">Mbread Studio</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#apps" class="nav-link">All Apps</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Simple Hero -->
+    <section class="hero-simple">
+      <div class="container">
+        <h1 class="hero-title">Welcome to Mbread Studio</h1>
+        <p class="hero-desc">
+          We build simple and relaxing puzzle games with a warm wooden style.
+        </p>
+      </div>
+    </section>
+
+    <!-- All Apps Section -->
+    <section class="apps-section" id="apps">
+      <div class="container">
+        <h2 class="section-title">All Apps</h2>
+
+        <!-- Word Ladder Clickable Banner -->
+        <a href="word-ladder/index.html" class="app-banner-card" title="Open Word Ladder">
+          <div class="banner-image-wrap">
+            <img src="word-ladder/assets/home.png" alt="Word Ladder Game Banner" class="banner-preview-img">
+          </div>
+          <div class="banner-info">
+            <div class="banner-header-row">
+              <img src="word-ladder/assets/icon.png" alt="Word Ladder App Icon" class="banner-icon">
+              <div>
+                <h3 class="banner-title">Word Ladder</h3>
+                <span class="banner-tag">Available on Android</span>
+              </div>
+            </div>
+            <p class="banner-desc">
+              Connect words by changing one letter at each step. Enjoy daily puzzles and hundreds of levels on a wooden board.
+            </p>
+            <div class="banner-btn-row">
+              <span class="btn btn-primary">Open Word Ladder</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Minimal About and Contact Section -->
+    <section class="about-simple" id="about">
+      <div class="container">
+        <div class="about-simple-card">
+          <h2 class="section-title-sm">About Mbread Studio</h2>
+          <p class="about-text">
+            Mbread Studio is an independent studio making cozy and thoughtful puzzle games.
+          </p>
+
+          <div class="contact-box" id="contact">
+            <p class="contact-label">Contact</p>
+            <a href="mailto:studiombread@gmail.com" class="contact-email">studiombread@gmail.com</a>
+          </div>
+
+          <div class="policy-link-row">
+            <a href="word-ladder/privacy-policy/index.html" class="text-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- Footer -->
+  <footer class="footer-simple">
+    <div class="container">
+      <p>&copy; 2026 Mbread Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
